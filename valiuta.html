@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./valiuta.css"/>
+    <script src="./valiuta.js" defer></script>
+</head>
+<body>
+    <div class="left">
+    <div class="picturePig"></div>
+    </div>
+    <div class="right">
+        <div class="flex">
+    <div class="title"><span>Pi</span>nigų </div>
+    <div class="pink">Konvertavimas</div>
+    </div>
+<label>Turima suma</label>
+<div class="line">
+<input type="number" value="1.0" id="input"/>
+<select class="short">
+    <option value="EUR">EUR</option>
+    <option value="USD">USD</option>
+    <option value="PLN">PLN</option>
+    <option value="RUB">RUB</option>
+</select>
+</div>
+<div class="descr">Įveskite savo turimą pinigų sumą ir pasirinkite valiutą.</div>
+<label>Norima valiuta</label>
+<select class="long">
+    <option value="Doleriai">Doleriai</option>
+    <option value="Eurai">Eurai</option>
+    <option value="Svarai">Svarai</option>
+    <option value="Zlotai">Zlotai</option>
+    <option value="Rubliai">Rubliai</option>
+</select>
+<div class="descr">Pasirinkite į kokią valiutą norite keisti turimą sumą.</div>
+<div class="line">
+<button class="button">Konvertuoti</button>
+<button id="btn" class="hide"></button>
+</div>
+<div id="result"></div>
+</div>
+</body>
+</html>
