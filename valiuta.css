@@ -1,0 +1,112 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: serif;
+}
+.left {
+  width: 50%;
+  height: 180vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.picturePig {
+  background-image: url(./pig.png);
+  height: 1000px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 300px;
+}
+span {
+  color: pink;
+}
+.title {
+  color: aliceblue;
+  font-size: 200px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.pink {
+  color: pink;
+  font-size: 53px;
+  padding-top: 0;
+  margin-top: -50px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+label {
+  color: aliceblue;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.line {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  gap: 20px;
+}
+input,
+select {
+  background-color: rgb(24, 24, 24);
+  color: aliceblue;
+  border: none;
+  height: 38px;
+  color: rgb(195, 195, 195);
+  border-radius: 15px;
+  padding-left: 10px;
+}
+input {
+  width: 350px;
+}
+.short {
+  width: 150px;
+}
+.long {
+  width: 350px;
+}
+.descr {
+    color: rgb(104, 102, 102);
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.button {
+    border-radius: 15px;
+    background-color: aliceblue;
+    color:black;
+    height: 45px;
+    width: 300px;
+}
+.btn {
+    background-color: black;
+    border-color: aliceblue;
+    color: rgb(232, 236, 239);
+    height: 45px;
+    width: 300px;
+    border-radius: 15px;
+}
+.result {
+    color: aliceblue;
+    font-size: 60px;
+}
+.santykis {
+    color: aliceblue;
+    font-size: 15px;
+}
+.hide {
+    display: none;
+}
